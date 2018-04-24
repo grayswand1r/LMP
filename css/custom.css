@@ -1,0 +1,172 @@
+body {
+   text-align: center;
+}
+
+
+.title {
+  background-image: url("../images/kitkatCompressed.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #ccc;
+  background-size: cover;
+  border: 1px solid;
+  height: 100vh;
+}
+
+
+.logo {
+   height: 150px;
+}
+
+
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+.nav-item {
+	padding: 0px 10px 0px 10px;	
+}
+
+/*
+.anchor{
+   display:block;
+   height:149px; 
+   margin-top:-63px; 
+   visibility:hidden;
+}
+*/
+
+.about {
+   height: 50vh;
+   background-color: white;
+   display: flex;
+   justify-content: center;
+}
+.about > * {
+  align-self: center;
+  padding: 2rem; 
+}
+.about > div > * {
+   padding-top: 25px;
+   padding-bottom: 25px;
+}
+.signature {
+   height: 12vh;
+}
+
+
+
+.social-stats {
+   height: 20vh;
+   background-color: black;
+   display: flex;
+   justify-content: center;
+}
+.social-stats > * {
+   align-self: center;
+   padding: 2rem; 
+}
+.social-stats > div > div > a > img {
+   height: 20px;
+
+}
+
+
+.recent-projects {   
+   height: 100vh;
+   background-color: white;
+   display: flex;
+   justify-content: center;
+}
+.recent-projects > * { 
+   align-self: center;
+   padding: 2rem; 
+}  
+
+.recent-projects > div > * {
+   padding-top: 25px;
+   padding-bottom: 25px;
+}
+
+
+.client-review {
+   height: 50vh;
+   background-color: black;
+   display: flex;
+   justify-content: center;
+}
+
+.client-review > * {
+  align-self: center;
+  padding: 2rem; 
+  color: white;
+
+}
+.client-review > div> blockquote > p {
+   font-style: italic;
+   font-size: 200%;
+}
+
+
+.social-links {
+   height: 20vh;
+   background-color:  white;
+   display: flex;
+   justify-content: center;
+}
+.social-links > * {
+   align-self: center;
+   padding: 2rem; 
+}
+.social-links > div > div > a > img {
+   height: 20px;
+
+}
+
+
+
+.latest-blog {
+   height: 100vh;
+   background-color: black;
+   display: flex;
+   justify-content: center;
+   color: white;
+}
+.latest-blog > * {
+   align-self: center;
+   padding: 2rem; 
+}
+
+
+
+
+.contact {
+   height: 60vh;
+   background-color: white;
+   display: flex;
+   justify-content: center;
+}
+.contact > * {
+   align-self: center;
+   padding: 2rem; 
+}
+
+
+
+.footer {
+   height: 60vh;
+   background-color: black;
+   display: flex;
+   justify-content: center;
+   color: white;
+}
+.footer > * {
+   align-self: center;
+   padding: 2rem; 
+}

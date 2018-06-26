@@ -2,16 +2,20 @@
   $(document).ready(function(){
     
 	// hide .navbar first
-	$(".navbar").hide();
-	
+
 	// fade in .navbar
 	$(function () {
 		$(window).scroll(function () {
             // set distance user needs to scroll before we fadeIn navbar
 			if ($(this).scrollTop() > 100) {
-				$('.navbar').fadeIn();
+					$("nav").css('background-color', 'white');
+					$(".navbar-nav>li>a").css('color', 'black');
+					$(".navbar-nav>li>a").css('text-shadow', '4px 4px 8px white');
+	
 			} else {
-				$('.navbar').fadeOut();
+					$("nav").css('background-color', 'transparent');
+					$(".navbar-nav>li>a").css('color', 'white');
+					$(".navbar-nav>li>a").css('text-shadow', '4px 4px 8px black');
 			}
 			
 			

@@ -1,49 +1,71 @@
+
+
 body {
    text-align: center;
 }
-
-
 .title {
-  background-image: url("../images/kitkatCompressed.jpg");
+  background-image: url("../images/fae.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-color: #ccc;
   background-size: cover;
   border: 1px solid;
   height: 100vh;
+  display: flex;
+  justify-content: center;
 }
-
+.title > * {
+  align-self: center;
+  padding: 2rem; 
+}
+.jumbotron {
+   background: rgba(255,255,255,.9); 
+}
 
 .logo {
-   height: 150px;
+   height: 140px;
 }
 
 
+nav {
+   background-color: trasparent;
+   
+}
+nav ul {
+   overflow:auto;
+}
 .navbar-nav {
-    float:none;
-    margin:0 auto;
-    display: block;
+
+
     text-align: center;
+    float: right;
 }
-.navbar-nav > li {
-    display: inline-block;
-    float:none;
+
+.navbar-nav > li > a {
+   color: white;
+   text-shadow: 4px 4px 8px black;
 }
 .nav-item {
 	padding: 0px 10px 0px 10px;	
+   
+}
+.navbar-toggler {
+  background-color: white;
 }
 
-/*
+
+
+h1 {
+   padding-bottom: 50px;
+}
 .anchor{
    display:block;
-   height:149px; 
-   margin-top:-63px; 
+   height:140px; 
+   margin-top:-140px; 
    visibility:hidden;
 }
-*/
 
 .about {
-   height: 50vh;
    background-color: white;
    display: flex;
    justify-content: center;
@@ -52,34 +74,27 @@ body {
   align-self: center;
   padding: 2rem; 
 }
-.about > div > * {
-   padding-top: 25px;
-   padding-bottom: 25px;
-}
-.signature {
-   height: 12vh;
-}
 
+.signature {
+   height: 100px;
+}
 
 
 .social-stats {
-   height: 20vh;
    background-color: black;
-   display: flex;
-   justify-content: center;
+
 }
 .social-stats > * {
-   align-self: center;
-   padding: 2rem; 
+   padding-top: 20px;
+   padding-bottom: 20px;
+
 }
 .social-stats > div > div > a > img {
    height: 20px;
 
 }
 
-
 .recent-projects {   
-   height: 100vh;
    background-color: white;
    display: flex;
    justify-content: center;
@@ -88,15 +103,13 @@ body {
    align-self: center;
    padding: 2rem; 
 }  
-
-.recent-projects > div > * {
-   padding-top: 25px;
-   padding-bottom: 25px;
+.recent-projects  > div > div > div:nth-child(n) > img {
+ margin-top: 15px;
+ margin-bottom: 15px;
 }
 
 
 .client-review {
-   height: 50vh;
    background-color: black;
    display: flex;
    justify-content: center;
@@ -113,16 +126,12 @@ body {
    font-size: 200%;
 }
 
-
 .social-links {
-   height: 20vh;
    background-color:  white;
-   display: flex;
-   justify-content: center;
 }
 .social-links > * {
-   align-self: center;
-   padding: 2rem; 
+   padding-top: 20px;
+   padding-bottom: 20px;
 }
 .social-links > div > div > a > img {
    height: 20px;
@@ -131,8 +140,39 @@ body {
 
 
 
+
+
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
 .latest-blog {
-   height: 100vh;
    background-color: black;
    display: flex;
    justify-content: center;
@@ -142,25 +182,50 @@ body {
    align-self: center;
    padding: 2rem; 
 }
-
-
-
+.latest-blog img {
+  width: 100%;
+}
 
 .contact {
-   height: 60vh;
-   background-color: white;
    display: flex;
    justify-content: center;
 }
+.contact > div > div > div > h1 {
+
+}
+
 .contact > * {
    align-self: center;
    padding: 2rem; 
 }
 
+.red{
+    color:red;
+    }
+.form-area {
 
+   background-color: #FAFAFA;
+	margin: 10px 0px 10px;
+
+	}
+   
+form {
+   
+}
+form > * {
+	margin: 5px 0px 5px;
+}
+form > input {
+      height: 11%;
+   
+}
+form > textarea {
+      height: 25%;
+   
+}
 
 .footer {
-   height: 60vh;
+
    background-color: black;
    display: flex;
    justify-content: center;
@@ -169,4 +234,5 @@ body {
 .footer > * {
    align-self: center;
    padding: 2rem; 
-}
+   }
+

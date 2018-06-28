@@ -27,6 +27,22 @@ body {
 }
 
 
+@media screen and (max-width: 800px) {
+  .logo {
+    height: 70px;
+    flex: 100%;
+
+  }
+}
+
+
+
+@media screen and (max-width: 800px) {
+  nav {
+    background-color: black;
+    
+ }
+}
 nav {
    background-color: trasparent;
    
@@ -34,11 +50,20 @@ nav {
 nav ul {
    overflow:auto;
 }
+
+
+@media screen and (max-width: 600px) {
+  .navbar-nav {
+    text-align: center;
+    float: center;
+}
+
+}
 .navbar-nav {
 
 
     text-align: center;
-    float: right;
+    float: center;
 }
 
 .navbar-nav > li > a {

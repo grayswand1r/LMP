@@ -68,6 +68,13 @@ nav ul {
    color: white;
    text-shadow: 4px 4px 8px black;
 }
+@media screen and (max-width: 989px) {
+  .navbar-nav > li > a {
+    color: white;
+    text-shadow: 4px 4px 8px black;
+    background-color: black;
+ }
+}
 .nav-item {
 	padding: 0px 10px 0px 10px;	
    

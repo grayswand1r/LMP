@@ -13,7 +13,7 @@
 					$(".navbar-nav>li>a").css('text-shadow', '4px 4px 8px white');
 	
 			} else {
-					$("nav").css('background-color', 'transparent');
+					$("nav").css('background-color', '#03080B');
 					$(".navbar-nav>li>a").css('color', 'white');
 					$(".navbar-nav>li>a").css('text-shadow', '4px 4px 8px black');
 			}

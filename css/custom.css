@@ -83,12 +83,6 @@ nav ul {
   background-color: white;
 }
 
-
-
-h1 {
-
-}
-
 .anchor{
    display:block;
    height:140px; 
@@ -123,10 +117,6 @@ h1 {
    background-color: black;
 
 }
-.social-stats > * {
-
-
-}
 .social-stats > div > div > a > img {
    height: 20px;
 
@@ -141,10 +131,6 @@ h1 {
    align-self: center;
    padding: 2rem; 
 }  
-.recent-projects  > div > div > div:nth-child(n) > img {
-
-}
-
 
 .client-review {
    background-color: black;
@@ -165,9 +151,6 @@ h1 {
 
 .social-links {
    background-color:  white;
-}
-.social-links > * {
-
 }
 .social-links > div > div > a > img {
    height: 20px;
@@ -226,10 +209,6 @@ h1 {
    display: flex;
    justify-content: center;
 }
-.contact > div > div > div > h1 {
-
-}
-
 .contact > * {
    align-self: center;
    padding: 2rem; 
@@ -245,9 +224,6 @@ h1 {
 
 	}
    
-form {
-   
-}
 form > * {
 	margin: 5px 0px 5px;
 }

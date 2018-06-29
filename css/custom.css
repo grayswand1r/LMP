@@ -27,7 +27,7 @@ body {
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 989px) {
   .logo {
     height: 70px;
     flex: 100%;
@@ -37,14 +37,14 @@ body {
 
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 989px) {
   nav {
-    background-color: black;
+    background-color: transparent;
     
  }
 }
 nav {
-   background-color: trasparent;
+   background-color: transparent;
    
 }
 nav ul {
@@ -182,7 +182,7 @@ h1 {
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 989px) {
   .column {
     flex: 50%;
     max-width: 50%;

@@ -1,5 +1,3 @@
-
-
 body {
    text-align: center;
 }
@@ -81,13 +79,23 @@ nav ul {
 
 
 h1 {
-   padding-bottom: 50px;
+
 }
+
 .anchor{
    display:block;
    height:140px; 
    margin-top:-140px; 
    visibility:hidden;
+}
+
+@media screen and (max-width: 989px) {
+  .anchor{
+    display:block;
+    height:230px; 
+    margin-top:-230px; 
+    visibility:hidden;
+ }
 }
 
 .about {
@@ -110,8 +118,7 @@ h1 {
 
 }
 .social-stats > * {
-   padding-top: 20px;
-   padding-bottom: 20px;
+
 
 }
 .social-stats > div > div > a > img {
@@ -129,8 +136,7 @@ h1 {
    padding: 2rem; 
 }  
 .recent-projects  > div > div > div:nth-child(n) > img {
- margin-top: 15px;
- margin-bottom: 15px;
+
 }
 
 
@@ -155,8 +161,7 @@ h1 {
    background-color:  white;
 }
 .social-links > * {
-   padding-top: 20px;
-   padding-bottom: 20px;
+
 }
 .social-links > div > div > a > img {
    height: 20px;
@@ -230,7 +235,7 @@ h1 {
 .form-area {
 
    background-color: #FAFAFA;
-	margin: 10px 0px 10px;
+
 
 	}
    

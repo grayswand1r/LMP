@@ -152,12 +152,12 @@
             <img src="images/6.jpg">
           </div>
           <div class="column">
-            <img src="images/lr_sitting.jpg">
-            <img src="images/lr_portrait.jpg">
-            <img src="images/lr_bw.jpg">
-            <img src="images/lr_standing.jpg">
-            <img src="images/couple.jpg">
-            <img src="images/sky.jpg">
+            <img src="images/a1.jpg">
+            <img src="images/a2.jpg">
+            <img src="images/a3.jpg">
+            <img src="images/a4.jpg">
+            <img src="images/a5.jpg">
+            <img src="images/a6.jpg">
           </div> 
         </div>
     </div>
@@ -169,7 +169,7 @@
     <div class="container">
       <blockquote class="blockquote">
         <p>"Lynsey captured our graduation pictures perfectly! She had fun pose suggestions, an eye for lighting and just an incredibly kind person. Thank you Lynsey, we will adore the pictures you took for many many years."</p>
-        -Carrie (client)
+        -Carrie (client, 2018)
       </blockquote>
     </div>
   </div>
@@ -238,7 +238,7 @@
 
 <div class="col-lg-7 col-12">
     <div class="form-area">
-        <form role="form">
+        <form role="form" method="POST" action="SubmitForm.php">
 
 						<input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
 
@@ -251,11 +251,11 @@
 
 						<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
 
-                    <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="140" rows="7"></textarea>
+                    <textarea class="form-control" type="textarea" id="message" name="message" placeholder="Message" maxlength="140" rows="7"></textarea>
                         <span class="help-block"><p id="characterLeft" class="help-block ">You have reached the limit</p></span>
 
 
-        <button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Submit Form</button>
+        <button type="submit" id="submit" name="submit" class="btn btn-primary pull-right">Submit</button>
         </form>
 
 </div>
@@ -264,6 +264,7 @@
       </div>
     </div>
   </div>
+
 
 
   <!-- START: Footer -->
